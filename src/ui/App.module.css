@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  height: 100vh;
+  padding: 1rem 0.75rem 0.75rem;
+}
+
+.app h1 {
+  margin: 0px;
+  flex: 1 0 auto;
+}

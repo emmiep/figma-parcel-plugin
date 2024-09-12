@@ -11,6 +11,10 @@
   font-family: "Inter", system-ui, sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 input,
 select,
 textarea,
