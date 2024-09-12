@@ -1,7 +1,4 @@
 import { createRoot } from "react-dom/client";
-
-function App() {
-  return <h1>The plugin is working!</h1>;
-}
+import App from "./App";
 
 createRoot(document.querySelector("[data-react-root]")!).render(<App />);
