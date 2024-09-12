@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel watch --no-hmr",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +13,14 @@
   "license": "ISC",
 	"devDependencies": {
 		"parcel": "^2.12.0"
-	}
+	},
+  "source": ["src/plugin/index.js", "src/ui/index.html"],
+  "targets": {
+    "plugin": {
+      "source": "src/plugin/index.js"
+    },
+    "ui": {
+      "source": "src/ui/index.html"
+    }
+  }
 }

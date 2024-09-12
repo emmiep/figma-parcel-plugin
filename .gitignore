@@ -1,5 +1,6 @@
 # build artifacts
 /dist/
+.parcel-cache/
 
 # npm
 node_modules/
