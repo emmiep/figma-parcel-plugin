@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.100.0",
+    "@parcel/config-default": "^2.12.0",
+    "@parcel/resolver-glob": "^2.12.0",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "parcel": "^2.12.0",
