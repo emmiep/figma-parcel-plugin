@@ -10,14 +10,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "SC",
 	"devDependencies": {
 		"parcel": "^2.12.0"
 	},
-  "source": ["src/plugin/index.js", "src/ui/index.html"],
+  "source": ["src/plugin/index.ts", "src/ui/index.html"],
   "targets": {
     "plugin": {
-      "source": "src/plugin/index.js"
+      "source": "src/plugin/index.ts"
     },
     "ui": {
       "source": "src/ui/index.html"
