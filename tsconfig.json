@@ -1,16 +1,11 @@
 {
   "compilerOptions": {
     "lib": [
-      "ES6",
-      "DOM"
+      "ES6"
     ],
     "module": "Preserve",
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@figma"
-    ],
     "strict": true,
     "baseUrl": ".",
     "paths": {
