@@ -18,7 +18,7 @@ export default function App() {
   return (
     <main className={styles.app}>
       <h1>The plugin is working!</h1>
-      <button onClick={handleClickCreateStar}>Add star</button>
+      <MyButton onClick={handleClickCreateStar}>Add star</MyButton>
     </main>
   );
 }
