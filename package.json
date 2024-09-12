@@ -13,7 +13,8 @@
   "license": "SC",
   "devDependencies": {
     "@figma/plugin-typings": "^1.100.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "prettier": "3.3.3"
   },
   "source": [
     "src/plugin/index.ts",
