@@ -11,10 +11,14 @@
   "keywords": [],
   "author": "",
   "license": "SC",
-	"devDependencies": {
-		"parcel": "^2.12.0"
-	},
-  "source": ["src/plugin/index.ts", "src/ui/index.html"],
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.100.0",
+    "parcel": "^2.12.0"
+  },
+  "source": [
+    "src/plugin/index.ts",
+    "src/ui/index.html"
+  ],
   "targets": {
     "plugin": {
       "source": "src/plugin/index.ts"
