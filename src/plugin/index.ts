@@ -1,6 +1,10 @@
 import type { CreateStarMessage } from "@/shared/messages";
 
-figma.showUI(__html__);
+figma.showUI(__html__, {
+  width: 300,
+  height: 200,
+  themeColors: true,
+});
 
 figma.ui.onmessage = (message: CreateStarMessage) => {
   if (message.type === "createStar") {
