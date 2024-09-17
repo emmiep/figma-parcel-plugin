@@ -7,6 +7,10 @@
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
     "strict": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@figma"
+    ],
     "baseUrl": ".",
     "paths": {
       "@/*": [
