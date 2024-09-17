@@ -28,3 +28,13 @@ Scroll down to the bottom and expand the _Advanced_ section, and click `Generate
 Replace the `id` property in `manifest.json` with the generated ID value.
 
 Remember to also change the `name` property in `manifest.json`, and `name` and `author` in `package.json`.
+
+## Styling
+
+Use `global.css` to apply global styles.
+CSS modules can be used, but need to be imported from `src/ui/index.html`.
+`App.module.css` and `.module.css` files from the `src/ui/components` folder are already imported, but it's easy to add more using [glob imports](https://parceljs.org/features/dependency-resolution/#glob-specifiers):
+
+```css
+@import "./more-components/*.module.css";
+```
