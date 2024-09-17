@@ -1,4 +1,4 @@
-import styles from "./MyButton.module.css";
+import * as styles from "./MyButton.module.css";
 import type { ButtonHTMLAttributes } from "react";
 
 export type MyButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;

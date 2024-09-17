@@ -1,5 +1,5 @@
 import MyButton from "./components/MyButton";
-import styles from "./App.module.css";
+import * as styles from "./App.module.css";
 import type {
   CreateStarMessage,
   PluginMessageContainer,
